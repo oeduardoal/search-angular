@@ -25,10 +25,13 @@ $ npm i -g webpack webpack-dev-server
 $ git checkout es5
 ```
 ```
-$ git checkout es5
+$ webpack-dev-server --progress --colors --open
 ```
 
-### NPM
+## To change es6
+```
+$ git checkout es6
+```
 ```
 $ npm start
 ```
