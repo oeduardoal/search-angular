@@ -6,36 +6,33 @@
 <head>
 	<meta charset="utf-8">
 	<title>Search, :D</title>
-	<!-- LINKs -->
+
 	<link rel="icon" href="assets/css/icon.ico">
-	<link rel="stylesheet" href="assets/css/bootstrap/css/bootstrap.css">
-	<link rel="stylesheet" href="assets/css/main.css">
+	
+	<!-- <link rel="stylesheet" href="assets/css/bootstrap.css"> -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css" rel="stylesheet" integrity="sha384-awusxf8AUojygHf2+joICySzB780jVvQaVCAt1clU3QsyAitLGul28Qxb2r1e5g+" crossorigin="anonymous">
+	<!-- <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/yeti/bootstrap.min.css" rel="stylesheet" integrity="sha384-HzUaiJdCTIY/RL2vDPRGdEQHHahjzwoJJzGUkYjHVzTwXFQ2QN/nVgX7tzoMW3Ov" crossorigin="anonymous"> -->
+	<!-- <base href="http://localhost/@github/search-angular-es6/"> -->
+</head>
+
+	<body class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="page-header">
+						<h1 class="text-{{tema}}">Sistema de Pesquisa <small style="font-size: 14px;">Faça sua consulta</small></h1>
+					</div>
+				</div>
+			</div>
+			<div ng-view></div>
+			<div class="row footer">
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<p class="text-center">Desenvolvido por <a href="http://www.facebook.com/oeduardoal/" target="_blank" style="text-decoration: none;">Eduardo Almeida</a> - <a href="http://oeduardoal.github.io" target="_blank">@oeduardoal</a>.</p>
+				</div>
+				<div class="col-md-4"></div>
+			</div>
+	</body>
 
 	<!-- Scripts -->
-	<script src="assets/js/angular/angular.js"></script>
-	<script src="assets/js/angular/angular-route.js"></script>
-	<script src="assets/css/bootstrap/js/jquery.js"></script>
-	<script src="assets/css/bootstrap/js/bootstrap.js"></script>
-	<script src="assets/js/App.js"></script>
-	<script src="assets/js/Ctrl.js"></script>
-	<script src="assets/js/Config.js"></script>
-</head>
-<body ng-controller="Ctrl" class="container">
-<div class="row">
-	<div class="col-sm-12">
-		<div class="page-header">
-			<h1 class="text-{{tema}}">Sistema de Pesquisa <small style="font-size: 14px;">Faça sua consulta</small></h1>
-		</div>
-	</div>
-</div>
-		
-		<div ng-view></div>
-<div class="row footer">
-	<div class="col-md-4"></div>
-	<div class="col-md-4">
-		<p class="text-center">Desenvolvido por <a href="http://www.facebook.com/oeduardoal/" target="_blank" style="text-decoration: none;">Eduardo Almeida</a> - <a href="http://oeduardoal.github.io" target="_blank">@oeduardoal</a>.</p>
-	</div>
-	<div class="col-md-4"></div>
-</div>
-</body>
+	<script src="dist/js/bundle.js"></script>
 </html>

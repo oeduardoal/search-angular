@@ -8,10 +8,10 @@
 	<div class="row" ng-if="pesquisa">
 	<hr>
 	<br>
-	<div class="col-md-3"  ng-repeat="item in dados | filter:{descricao: pesquisa}">
+	<div class="col-md-3"  ng-repeat="item in dados.data | filter: pesquisa">
 		<div class="panel panel-{{tema}}">
 			<div class="panel-heading">
-				<b>{{item.id}} - {{item.descricao}}</b>
+				<b>{{item.descricao}}</b>
 			</div>
 			<div class="panel-body text-justify">
 				<div class="alert alert-danger">Valor Mínimo: {{item.valor_min}}</div>
