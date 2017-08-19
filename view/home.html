@@ -1,0 +1,33 @@
+	<div class="row">
+		<div class="col-md-12">
+			<input type="text" name="pesquisa" class="form-control form-control-gray form-control-no-border" onfocus="true" autofocus="true" ng-model="pesquisa" placeholder="Digite o nome do parceiro: ">
+		</div>
+	</div>
+	<br>
+
+	<div class="row" ng-if="pesquisa">
+	<hr>
+	<br>
+	<div class="col-md-3"  ng-repeat="item in dados | filter:{descricao: pesquisa}">
+		<div class="panel panel-{{tema}}">
+			<div class="panel-heading">
+				<b>{{item.id}} - {{item.descricao}}</b>
+			</div>
+			<div class="panel-body text-justify">
+				<div class="alert alert-danger">Valor Mínimo: {{item.valor_min}}</div>
+				<div class="alert alert-success">Valor Máximo: {{item.valor_max}}</div>
+				<div class="alert alert-warning">Código interno: {{item.cod_interno}}</div>
+				<img src="assets/img/logo.jpg" width="100%">
+				<a href="#/detalhes/{{item.id}}" class="btn btn-{{tema}} btn-block"><span class="glyphicon glyphicon-th-list" style="float: left;font-size: 16px;margin-top: 2px;"></span>Detalhes</a>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<div class="row" ng-if="!pesquisa">
+		<div class="col-sm-3"></div>
+		<div class="col-sm-6">
+			<img src="assets/img/logo.jpg" alt="" width="100%">
+		</div>
+	
+	</div>

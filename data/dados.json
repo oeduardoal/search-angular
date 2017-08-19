@@ -1,0 +1,48 @@
+[
+    {
+        "id": "1",
+        "localizacao": "W1-01",
+        "cod_fabricante": "PC04-M1",
+        "descricao": "CONEXÃO RETA M5 X TB-4MM",
+        "valor_max": "20",
+        "valor_min": "10",
+        "cod_fornecedor": "0001",
+        "cod_interno": "0001"
+    },{
+        "id": "2",
+        "localizacao": "W1-02",
+        "cod_fabricante": "PC04-M2",
+        "descricao": "CONEXÃO RETA M5 X TB-4MM",
+        "valor_max": "20",
+        "valor_min": "10",
+        "cod_fornecedor": "0002",
+        "cod_interno": "0002"
+    },{
+        "id": "3",
+        "localizacao": "W1-03",
+        "cod_fabricante": "PC04-M3",
+        "descricao": "CONEXÃO RETA M5 X TB-4MM",
+        "valor_max": "20",
+        "valor_min": "10",
+        "cod_fornecedor": "0003",
+        "cod_interno": "0003"
+    },{
+        "id": "4",
+        "localizacao": "W1-04",
+        "cod_fabricante": "PC04-M4",
+        "descricao": "CONEXÃO RETA M5 X TB-4MM",
+        "valor_max": "20",
+        "valor_min": "10",
+        "cod_fornecedor": "0004",
+        "cod_interno": "0004"
+    },{
+        "id": "5",
+        "localizacao": "W1-05",
+        "cod_fabricante": "PC04-M5",
+        "descricao": "CONEXÃO RETA M5 X TB-4MM",
+        "valor_max": "20",
+        "valor_min": "10",
+        "cod_fornecedor": "0005",
+        "cod_interno": "0005"
+    }
+]

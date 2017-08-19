@@ -1,0 +1,25 @@
+@brand-primary: #428bca;
+@brand-success: #5cb85c;
+@brand-info:    #5bc0de;
+@brand-warning: #f0ad4e;
+@brand-danger:  #d9534f;
+.form-control:focus {
+    border-color: #428bca;
+    box-shadow: 1 1 1px #428bca;
+}
+
+
+
+.btn-right{
+	float: right;
+	margin-right: 4px !important;
+}
+.footer_a:hover{
+	list-style: none;
+	text-decoration: none;
+}
+
+.footer{
+	margin-right: auto;
+	margin-left: auto;
+}

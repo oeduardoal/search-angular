@@ -1,0 +1,43 @@
+<div class="row">
+	<div class="col-sm-12">
+		<div class="panel panel-{{tema}}">
+		<div class="panel-heading">
+			<h3>{{detalhes.id}} - {{detalhes.descricao}}</h3>
+		<a class="btn btn-{{tema}}" ng-click="back()">Voltar</a>
+		</div>
+		<div class="panel-body">
+			<h4>OUTROS DADOS</h4>
+		</div>
+			<table class="table"">
+				<tbody>
+					<tr class="bg-danger">
+						<th width="300">Valor Mínimo do produto:</th>
+						<td>{{detalhes.valor_min}}</td>
+					</tr>
+					<tr class="bg-success">
+						<th width="300">Valor Máximo do produto: </th>
+						<td>{{detalhes.valor_max}}</td>
+					</tr>
+					<tr class="bg-warning">
+						<th width="300">Localização no estoque:</th>
+						<td>{{detalhes.localizacao}}</td>
+					</tr>
+					<tr class="bg-info">
+						<th width="300">Código do Frabricante:</th>
+						<td>{{detalhes.cod_fabricante}}</td>
+					</tr>
+					<tr class="bg-info">
+						<th width="300">Código do Fornecedor:</th>
+						<td>{{detalhes.cod_fornecedor}}</td>
+					</tr>
+					<tr class="bg-info">
+						<th width="300">Código Interno do produto:</th>
+						<td>{{detalhes.cod_interno}}</td>
+					</tr>
+					
+
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
