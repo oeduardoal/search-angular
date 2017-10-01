@@ -3,7 +3,7 @@ Simple Search with Angular - es5/es6.
 
 ## Installation
 ```
-$ git clone git@github.com:oeduardoal/search-angular.git project
+$ git clone https://github.com/oeduardoal/search-angular.git project
 ```
 
 ## Starting
